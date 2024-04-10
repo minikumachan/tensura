@@ -3,7 +3,7 @@
   height: inherit;
   position: absolute;
   z-index: -1;
-  top: 0;
+  top: 50%;
   left: 0;
 }
 
