@@ -3,7 +3,7 @@
   height: 800px;
 
   /* 背景画像を表示 */
-  background-image: url("ラファエル.png");
+  background-image: url("画像/背景/ラファエル.png");
 
   position: relative;
   background-repeat: no-repeat;
