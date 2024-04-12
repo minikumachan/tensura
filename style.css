@@ -22,9 +22,10 @@
 }
 
 .toggle_label {
-  width: 75px;
-  height: 35px;
-  background: #ccc;
+  width: 85px;
+  height: 42px;
+  background: #fff;
+  border: 3px solid #eee;
   position: relative;
   display: inline-block;
   border-radius: 40px;
@@ -35,28 +36,29 @@
 .toggle_label:after {
   content: "";
   position: absolute;
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   border-radius: 100%;
-  left: 0;
-  top: 0;
+  left: 2px;
+  top: 2px;
   z-index: 2;
-  background: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #eee;
   transition: 0.4s;
 }
 
 .toggle_input:checked + .toggle_label {
-  background-color: #4BD865;
+
+  border: 3px solid #4BD865;
 }
 
 .toggle_input:checked + .toggle_label:after {
-  left: 40px;
+  left: 42px;
+  background: #4BD865;
 }
 
 .toggle_button {
   position: relative;
-  width: 75px;
-  height: 35px;
+  width: 85px;
+  height: 42px;
   margin: auto;
 }
