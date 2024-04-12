@@ -12,13 +12,13 @@ all
   object-fit: cover;
 }
 
-BulletinBoard.html
+-- BulletinBoard --
 
 
-Contact.html
+-- Contact -- 
 
 
-Keisan.html
+-- Keisan --
 .toggle_input {
   position: absolute;
   left: 0;
@@ -70,7 +70,4 @@ Keisan.html
   width: 85px;
   height: 42px;
   margin: auto;
-
-  index.html
-  
 }
