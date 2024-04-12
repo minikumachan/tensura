@@ -1,3 +1,4 @@
+all
 .p-fv__img {
   width: 100%;
   height: inherit;
@@ -11,9 +12,7 @@
   object-fit: cover;
 }
 
-<!--
 Keisan.html
--->
 .toggle_input {
   position: absolute;
   left: 0;
