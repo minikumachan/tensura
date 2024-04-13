@@ -1,4 +1,4 @@
-all
+-- all --
 .p-fv__img {
   width: 100%;
   height: inherit;
@@ -72,9 +72,12 @@ all
   margin: auto;
 }
 .rectangle {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
     width: 100px;
     height: 100px;
-    border: 2px solid black;
+    border: 2px solid ;
     background-color: black;
     border-radius: 10px;
 }
